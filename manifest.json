@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "MasterCardRoundUP",
+  "description": " Chrome extension for the Washu2022Hackathon",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "tabs",
+    "http://localhost:8080/func1?param1=200&param2=USD",
+    "*://localhost:*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/16photos-icon.png",
+    "48": "/images/48photos-icon.png",
+    "128": "/images/128photos-icon.png"
+  },
+  "commands":{
+    "_execute_browser_action":{
+      "suggested_key":{
+        "default":"Alt+Shift+K"
+      }
+    }
+  }
+}

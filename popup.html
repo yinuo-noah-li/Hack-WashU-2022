@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      class="logo"
+      src="/images/Mastercard-logo.svg.png"
+      width="32"
+      height="25"
+    />
+    <div class="master-tree">
+      <h2 class="title">
+        Round up your purchase with
+        <span style="color: #eb001b">Master</span> <span style="color: #FF5F00">Tree</span>
+      </h2>
+      <img
+        src="/images/white-tree.png"
+        width="250"
+        height="250"
+        class="product-img"
+      />
+
+      <div class="description">
+        <div class="product-price">
+          <p class="amount" id="price">$23.28</p>
+          <!-- <p class="rounded-up">Rounded up</p> -->
+        </div>
+
+        <button class="round-up-purchase" id="roundUp">Round Up</button>
+
+        <p class="text-description">
+          Rounding up to the nearest dollar will create a lasting impact on the
+          enviornment. Please consider helping the environment with each
+          purchase.
+        </p>
+        <p>
+          <a
+            class="more-info"
+            href="https://www.mastercard.com/global/en/vision/corp-responsibility/sustainability.html"
+            target="_blank"
+          >
+            More information &rarr;
+          </a>
+        </p>
+      </div>
+
+      <div class="your-impact">
+        <h3 class="impact-title" id="impactCents">Your $0.00 Worth of Impact:</h3>
+
+        <ul class="impact-list">
+          <li id="carbon">
+            Carbon sequestered:
+            <span style="color: yellow">X</span> g
+          </li>
+          <li id="trees">Trees saved: <span style="color: yellow">X</span> trees</li>
+        </ul>
+
+        <button class="round-up-purchase">Finalize Payment</button>
+      </div>
+    </div>
+  </body>
+  <script src="function.js">
+  </script>
+</html>

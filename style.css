@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: url("images/background.png");
+  background-size: 100%;
+  line-height: 1.4;
+  position: relative;
+}
+
+.master-tree {
+  width: 750px;
+  font-weight: 100;
+  display: grid;
+  grid-template-columns: 250px 1fr 1.7fr;
+  column-gap: 40px;
+  row-gap: 0;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  grid-column: 1 / -1;
+}
+
+.description {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount {
+  font-size: 24px;
+  color: #eb001b;
+}
+
+.rounded-up {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.text-description {
+  margin-bottom: 10px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.your-impact {
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.impact-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.impact-list {
+  list-style: square;
+  margin-left: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.impact-list li {
+  margin-bottom: 10px;
+}
+
+.round-up-purchase {
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 10px;
+  background-color: #eb001b;
+}
+
+.round-up-purchase:hover {
+  background-color: black;
+  /* color: black; */
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+strong {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
